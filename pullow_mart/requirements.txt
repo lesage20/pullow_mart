@@ -354,7 +354,7 @@ venusian==1.2.0
 vinetto==0.8.0
 w3lib==1.21.0
 wafw00f==2.1.0
-waitress==1.4.1
+waitress==1.4.3
 wapiti3==3.0.3
 wcwidth==0.1.8
 webargs==5.1.2
