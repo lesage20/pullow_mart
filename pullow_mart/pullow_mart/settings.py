@@ -37,7 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'pullowapp.apps.PullowappConfig'
+    'pullowapp.apps.PullowappConfig',
+    'configuration.apps.ConfigurationConfig',
+    'commerce.apps.CommerceConfig',
+    'contact.apps.ContactConfig',
+    'blog.apps.BlogConfig',
 ]
 
 MIDDLEWARE = [
