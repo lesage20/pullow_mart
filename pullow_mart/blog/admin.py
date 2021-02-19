@@ -28,5 +28,16 @@ def _register(model,admin_class):
 
 _register(models.CategorieArticle, CategorieArticleAdmin)
 
+class ArticleAdmin(admin.ModelAdmin):
+    list_display = ('nom','date_add', 'date_update', 'status', 'image_view')
+    list_filter = ('status',)
+    search_fields = ('nom',)
+    date_hierarchy = "date_add" 
+    list_display_links = ["nom"]
+    ordering = ['nom']
+    list_per_page = 10
+    fieldsets = [
+                ("Info Article", {"fields":['nom', 'image', 'description']}),
+                ("Standard", {"fields":['status']})
+                ]
 
-    

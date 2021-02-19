@@ -8,7 +8,7 @@ class SocialAccount(models.Model):
     ICONS = {
         ('facebook', "fa-facebook-f"),
         ('instagram', "fa-instagram"),
-        ('google-plus', "fa-google-plus-g"),
+        ('google-plus', "fa-google-plsus-g"),
         ('linkedin', "fa-linkedin-in"),
     }
 
