@@ -142,7 +142,7 @@ itsdangerous==0.24
 jdcal==1.0
 jedi==0.16.0
 jeepney==0.4.2
-Jinja2==2.10.1
+Jinja2==2.11.3
 jsonschema==2.6.0
 jupyter-core==4.6.2
 kaitaistruct==0.8
